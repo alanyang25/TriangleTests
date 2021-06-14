@@ -1,0 +1,15 @@
+1623686827357	geckodriver	INFO	Listening on 127.0.0.1:59473
+1623686830438	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Spencer\\AppData\\Local\\Temp\\rust_mozprofilezxgM59"
+*** You are running in headless mode.
+1623686830818	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Spencer\\AppData\\Local\\Temp\\rust_mozprofilezxgM59\\search.json.mozlz4", (void 0)))
+1623686832077	Marionette	INFO	Listening on port 59481
+1623686832506	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1623686834712	Marionette	INFO	Stopped listening on port 59481
+console.error: (new Error("Connection closed before committing the transaction.", "resource://gre/modules/Sqlite.jsm", 687))
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 687: Error: Connection closed before committing the transaction.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
