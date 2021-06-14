@@ -13,3 +13,23 @@ JavaScript error: resource://gre/modules/Sqlite.jsm, line 687: Error: Connection
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1623688039755	geckodriver	INFO	Listening on 127.0.0.1:50608
+1623688042843	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Spencer\\AppData\\Local\\Temp\\rust_mozprofileEApFa2"
+*** You are running in headless mode.
+1623688043169	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Spencer\\AppData\\Local\\Temp\\rust_mozprofileEApFa2\\search.json.mozlz4", (void 0)))
+1623688044226	Marionette	INFO	Listening on port 50616
+1623688044426	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1623688046826	Marionette	INFO	Stopped listening on port 50616
+1623688142785	geckodriver	INFO	Listening on 127.0.0.1:57410
+1623688145871	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Spencer\\AppData\\Local\\Temp\\rust_mozprofile4P3wCM"
+*** You are running in headless mode.
+1623688146191	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Spencer\\AppData\\Local\\Temp\\rust_mozprofile4P3wCM\\search.json.mozlz4", (void 0)))
+1623688147508	Marionette	INFO	Listening on port 57418
+1623688147930	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1623688149852	Marionette	INFO	Stopped listening on port 57418

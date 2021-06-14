@@ -5,7 +5,7 @@ from django.contrib.staticfiles.testing import StaticLiveServerTestCase
 Test case practices inpired by "The Art of Software Testing" by Glenford J. Myers, Corey Sandler, and Tom Badgett 
 """
 
-@pytest.mark.usefixtures("firefox_driver_init")
+@pytest.mark.usefixtures("chrome_driver_init")
 class FrontendTests(StaticLiveServerTestCase):
     
     def side_inputs(self, a, b, c):
