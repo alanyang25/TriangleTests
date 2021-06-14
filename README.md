@@ -1,0 +1,8 @@
+# TriangleTests
+
+A simple web app inspired by "The Art of Software Testing" by Glenford J. Myers, Corey Sandler, and Tom Badgett
+
+"The program reads three integer values from an input dialog. The
+three values represent the lengths of the sides of a triangle. The program
+displays a message that states whether the triangle is scalene,
+isosceles, or equilateral."
