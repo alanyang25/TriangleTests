@@ -72,7 +72,7 @@ class FrontendTests(StaticLiveServerTestCase):
 
     def test_Unvalid2(self):
         self.driver.get(self.live_server_url)
-        self.side_inputs(1, 2, 3000)
+        self.side_inputs(1, 2, 30000)
 
         message = self.driver.find_element_by_id('message')
         assert message.text == "Error: The sum of the lengths of any two sides of a triangle has to be greater than the length of the third side."
