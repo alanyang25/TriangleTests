@@ -60,7 +60,7 @@ class FrontendTests(StaticLiveServerTestCase):
         message = self.driver.find_element_by_id('message')
         assert message.text == "Error: Negative integer is invalid"
 
-    def test_Unvalid1(self):
+    def test_Invalid1(self):
         self.driver.get(self.live_server_url)
         self.side_inputs(1, 2, 3)
 
@@ -70,7 +70,7 @@ class FrontendTests(StaticLiveServerTestCase):
         message = self.driver.find_element_by_id('message')
         assert message.text == "Error: The sum of the lengths of any two sides of a triangle has to be greater than the length of the third side."
 
-    def test_Unvalid2(self):
+    def test_Invalid2(self):
         self.driver.get(self.live_server_url)
         self.side_inputs(1, 2, 30000)
 
