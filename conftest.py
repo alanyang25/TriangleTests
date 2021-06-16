@@ -6,7 +6,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 def chrome_driver_init(request):
     options = webdriver.ChromeOptions()
     options.add_argument("window-size=900,600")
-    # options.add_argument("--headless")
+    options.add_argument("--headless")
     web_driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
     request.cls.driver = web_driver
     yield
