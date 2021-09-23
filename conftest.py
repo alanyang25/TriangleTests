@@ -2,6 +2,7 @@ import pytest
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 
+# Chrome
 @pytest.fixture(scope="class")
 def chrome_driver_init(request):
     options = webdriver.ChromeOptions()
@@ -12,6 +13,7 @@ def chrome_driver_init(request):
     yield
     web_driver.close()
 
+# # Firefox
 # @pytest.fixture(scope="class")
 # def firefox_driver_init(request):
 #     options = webdriver.FirefoxOptions()
